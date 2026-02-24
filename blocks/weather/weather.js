@@ -18,6 +18,6 @@ export default async function decorate(block) {
       <p class="temp">${data.current.temp_c}°C</p>
       <p class="condition">${data.current.condition.text}</p>
     </div>
-  `;  
+  `;
   block.innerHTML = weatherHTML;
 }
